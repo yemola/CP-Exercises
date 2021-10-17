@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: -0.5rem;
+}
+
+h3 {
+  margin-bottom: -0.5rem;
+}
+
+h2,
+h3 {
+  font-family: "opensans", Arial, Helvetica, sans-serif;
+  font-weight: 750;
+}
+div {
+  padding: 1rem 2rem;
+  border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+
+body {
+  display: flex;
+  font-family: "opensans", Arial, Helvetica, sans-serif;
+  width: 65%;
+  align-content: center;
+}
+
+header {
+  font-size: 0.7rem;
+  margin-bottom: -1rem;
+}
+
+p {
+  margin-top: 0;
+  font-size: 0.8rem;
+  width: 60ch;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  margin-left: -4rem;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  object-position: top;
+}
+figcaption {
+  font-size: 0.8rem;
+  margin: -1rem auto;
+}
+
+li {
+  font-size: 0.8rem;
+  margin-left: -2rem;
+}
+
+@media screen and (min-width: 1140px) {
+  p {
+    div {
+      flex-direction: row;
+    }
+    width: 28ch;
+  }
+}

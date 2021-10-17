@@ -1,0 +1,91 @@
+@import url("fonts/open-sans/opensans-regular-webfont.woff2");
+body {
+  margin: 10px;
+  text-indent: 0;
+  text-align: left;
+  height: 300vh;
+}
+
+.colored {
+  background: #427fef;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eef7ff;
+}
+table,
+tr,
+td {
+  border: 1px solid #c4dcf3;
+  border-collapse: collapse;
+}
+h3 {
+  color: tomato;
+}
+tr {
+  font-size: 15px;
+}
+
+th,
+td {
+  padding: 7px;
+  font-size: 13px;
+}
+
+table {
+  margin: 30px -15px 50px;
+}
+
+ul {
+  list-style-type: initial;
+  margin: 0px -35px 30px;
+}
+header {
+  margin: 23px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 150%;
+}
+
+p {
+  margin: 30px -14px 20px;
+}
+.box {
+  width: 250px;
+  height: 300px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div {
+  position: absolute;
+  top: 630px;
+  left: 32px;
+  background-color: white;
+  border: 10px solid gold;
+  box-shadow: 10px 10px lightgrey;
+  overflow: hidden auto;
+}
+p.experience {
+  margin: 10px 10px;
+  text-align: justify;
+}
+.second-ul {
+  position: relative;
+  top: 400px;
+}
+
+tbody {
+  font-weight: bold;
+}
+
+/* format('woff2'),
+  url('fonts/open-sans/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal; } @font-face { font-family:
+  'opensans'; src: url('fonts/open-sans/opensans-bold-webfont.woff2')
+  format('woff2'), url('fonts/open-sans/opensans-bold-webfont.woff')
+  format('woff'); font-weight: bold; font-style: normal; */
